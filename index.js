@@ -1,5 +1,5 @@
 function otherAngle(a, b) {
-    return 180 - (a + b);
+    return 180 - (a + b); //Triangle adds to total 180, so subtract a & b from that
 }
 
 console.log(otherAngle(30, 60)); // return 90
